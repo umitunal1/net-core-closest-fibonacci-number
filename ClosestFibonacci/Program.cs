@@ -8,7 +8,7 @@ namespace ClosestFibonacci
         {
             Console.Write("Number: ");
             int i = int.Parse(Console.ReadLine());
-            Console.WriteLine("Closest Fibonacci is: {0}", ClosestFibonacci(i));
+            Console.WriteLine("The closest Fibonacci is: {0}", ClosestFibonacci(i));
             Console.ReadLine();
         }
 
